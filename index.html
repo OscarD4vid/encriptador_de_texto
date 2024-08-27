@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Oscar Spy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto Para Espias Gatunos</h1>
+        <div class="encryption-container">
+            <div class="left-panel">
+                <textarea id="input-text" placeholder="Ingresa tu texto aquí..."></textarea>
+                <div class="buttons">
+                    <button onclick="encriptar()">Encriptar</button>
+                    <button onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="right-panel">
+                <textarea id="output-text" placeholder="El resultado aparecerá aquí..." readonly></textarea>
+                <button onclick="copiarTexto()">Copiar al portapapeles</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
